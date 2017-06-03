@@ -5,6 +5,7 @@ $v = "0.1";
 $listen = "Escuchar";
 $finish = "Terminar";
 $tracks = 5;
+$description = "SpeechRecognition Music Player"
 
 ?>
 <!DOCTYPE html>
@@ -13,7 +14,7 @@ $tracks = 5;
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="I'm a simple BeatBox Tracker">
+    <meta name="description" content="<?php echo description ?>">
     <meta name="author" content="Ey Pacha!">
 
     <title><?php echo $title . ' v' . $v ?></title>
@@ -23,12 +24,12 @@ $tracks = 5;
 	
 	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
 	
-	<meta property="og:locale" content="en_EN" />
+	<meta property="og:locale" content="en_ES" />
 	<meta property="og:type" content="website" />
-	<meta property="og:title" content="BBX Tracker v.01"/>
-	<meta property="og:description" content="I'm a simple BeatBox Tracker" />
-	<meta property="og:url" content="https://eypacha.github.io/bbx-tracker/" />
-	<meta property="og:site_name" content="BBX Tracker v.01" />
+	<meta property="og:title" content="<?php echo $title . ' v' . $v ?>"/>
+	<meta property="og:description" content="<?php echo description ?>" />
+	<meta property="og:url" content="https://eypacha.com.ar/blablaplay/" />
+	<meta property="og:site_name" content="<?php echo $title . ' v' . $v ?>" />
 	<meta property="og:image" content="https://eypacha.github.io/bbx-tracker/img/ogg_preview.jpg" />
 	
 </head>
