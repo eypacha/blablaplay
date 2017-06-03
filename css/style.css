@@ -1,0 +1,20 @@
+body {
+	padding-top: 10px;
+}
+.title {
+	font-size: 18pt;
+	
+}
+.title small {
+	font-size: 12pt;
+	color: grey;
+}
+.track-selection input[type="file"]{
+	display: none;
+}
+.tracks audio {
+	width: 100%;
+	height: 34px;
+	border: solid 1px #ccc;
+	border-radius: 5px;
+}
